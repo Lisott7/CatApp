@@ -13,11 +13,14 @@ fun main() {
     // Calling a METHOD on each object
     binnie.walk()
     clyde.walk()
+    println(binnie)
+    println(clyde)
 
     /* println(objectName)
         automatically calls the toString() method
         to determine how the object should be displayed. */
-
+    binnie.walk()
+    clyde.walk()
     println(binnie)
     println(clyde)
 }
